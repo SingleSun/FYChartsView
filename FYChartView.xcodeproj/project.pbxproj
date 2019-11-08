@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A657CA4F237504F700DE79A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA4E237504F700DE79A5 /* AppDelegate.m */; };
+		A657CA52237504F700DE79A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA51237504F700DE79A5 /* SceneDelegate.m */; };
+		A657CA55237504F700DE79A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA54237504F700DE79A5 /* ViewController.m */; };
+		A657CA58237504F700DE79A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A657CA56237504F700DE79A5 /* Main.storyboard */; };
+		A657CA5A2375050900DE79A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A657CA592375050900DE79A5 /* Assets.xcassets */; };
+		A657CA5D2375050900DE79A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A657CA5B2375050900DE79A5 /* LaunchScreen.storyboard */; };
+		A657CA602375050900DE79A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA5F2375050900DE79A5 /* main.m */; };
+		A657CA6A2375050A00DE79A5 /* FYChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA692375050A00DE79A5 /* FYChartViewTests.m */; };
+		A657CA752375050A00DE79A5 /* FYChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA742375050A00DE79A5 /* FYChartViewUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A657CA662375050A00DE79A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A657CA42237504F700DE79A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A657CA49237504F700DE79A5;
+			remoteInfo = FYChartView;
+		};
+		A657CA712375050A00DE79A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A657CA42237504F700DE79A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A657CA49237504F700DE79A5;
+			remoteInfo = FYChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A657CA4A237504F700DE79A5 /* FYChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A657CA4D237504F700DE79A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A657CA4E237504F700DE79A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A657CA50237504F700DE79A5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		A657CA51237504F700DE79A5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		A657CA53237504F700DE79A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A657CA54237504F700DE79A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A657CA57237504F700DE79A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A657CA592375050900DE79A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A657CA5C2375050900DE79A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A657CA5E2375050900DE79A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A657CA5F2375050900DE79A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A657CA652375050A00DE79A5 /* FYChartViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYChartViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A657CA692375050A00DE79A5 /* FYChartViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChartViewTests.m; sourceTree = "<group>"; };
+		A657CA6B2375050A00DE79A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A657CA702375050A00DE79A5 /* FYChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A657CA742375050A00DE79A5 /* FYChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChartViewUITests.m; sourceTree = "<group>"; };
+		A657CA762375050A00DE79A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A657CA47237504F700DE79A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA622375050A00DE79A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA6D2375050A00DE79A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A657CA41237504F700DE79A5 = {
+			isa = PBXGroup;
+			children = (
+				A657CA4C237504F700DE79A5 /* FYChartView */,
+				A657CA682375050A00DE79A5 /* FYChartViewTests */,
+				A657CA732375050A00DE79A5 /* FYChartViewUITests */,
+				A657CA4B237504F700DE79A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A657CA4B237504F700DE79A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A657CA4A237504F700DE79A5 /* FYChartView.app */,
+				A657CA652375050A00DE79A5 /* FYChartViewTests.xctest */,
+				A657CA702375050A00DE79A5 /* FYChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A657CA4C237504F700DE79A5 /* FYChartView */ = {
+			isa = PBXGroup;
+			children = (
+				A657CA4D237504F700DE79A5 /* AppDelegate.h */,
+				A657CA4E237504F700DE79A5 /* AppDelegate.m */,
+				A657CA50237504F700DE79A5 /* SceneDelegate.h */,
+				A657CA51237504F700DE79A5 /* SceneDelegate.m */,
+				A657CA53237504F700DE79A5 /* ViewController.h */,
+				A657CA54237504F700DE79A5 /* ViewController.m */,
+				A657CA56237504F700DE79A5 /* Main.storyboard */,
+				A657CA592375050900DE79A5 /* Assets.xcassets */,
+				A657CA5B2375050900DE79A5 /* LaunchScreen.storyboard */,
+				A657CA5E2375050900DE79A5 /* Info.plist */,
+				A657CA5F2375050900DE79A5 /* main.m */,
+			);
+			path = FYChartView;
+			sourceTree = "<group>";
+		};
+		A657CA682375050A00DE79A5 /* FYChartViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				A657CA692375050A00DE79A5 /* FYChartViewTests.m */,
+				A657CA6B2375050A00DE79A5 /* Info.plist */,
+			);
+			path = FYChartViewTests;
+			sourceTree = "<group>";
+		};
+		A657CA732375050A00DE79A5 /* FYChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A657CA742375050A00DE79A5 /* FYChartViewUITests.m */,
+				A657CA762375050A00DE79A5 /* Info.plist */,
+			);
+			path = FYChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A657CA49237504F700DE79A5 /* FYChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A657CA792375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartView" */;
+			buildPhases = (
+				A657CA46237504F700DE79A5 /* Sources */,
+				A657CA47237504F700DE79A5 /* Frameworks */,
+				A657CA48237504F700DE79A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYChartView;
+			productName = FYChartView;
+			productReference = A657CA4A237504F700DE79A5 /* FYChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A657CA642375050A00DE79A5 /* FYChartViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A657CA7C2375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartViewTests" */;
+			buildPhases = (
+				A657CA612375050A00DE79A5 /* Sources */,
+				A657CA622375050A00DE79A5 /* Frameworks */,
+				A657CA632375050A00DE79A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A657CA672375050A00DE79A5 /* PBXTargetDependency */,
+			);
+			name = FYChartViewTests;
+			productName = FYChartViewTests;
+			productReference = A657CA652375050A00DE79A5 /* FYChartViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A657CA6F2375050A00DE79A5 /* FYChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A657CA7F2375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartViewUITests" */;
+			buildPhases = (
+				A657CA6C2375050A00DE79A5 /* Sources */,
+				A657CA6D2375050A00DE79A5 /* Frameworks */,
+				A657CA6E2375050A00DE79A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A657CA722375050A00DE79A5 /* PBXTargetDependency */,
+			);
+			name = FYChartViewUITests;
+			productName = FYChartViewUITests;
+			productReference = A657CA702375050A00DE79A5 /* FYChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A657CA42237504F700DE79A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "樊杨";
+				TargetAttributes = {
+					A657CA49237504F700DE79A5 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					A657CA642375050A00DE79A5 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A657CA49237504F700DE79A5;
+					};
+					A657CA6F2375050A00DE79A5 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = A657CA49237504F700DE79A5;
+					};
+				};
+			};
+			buildConfigurationList = A657CA45237504F700DE79A5 /* Build configuration list for PBXProject "FYChartView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A657CA41237504F700DE79A5;
+			productRefGroup = A657CA4B237504F700DE79A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A657CA49237504F700DE79A5 /* FYChartView */,
+				A657CA642375050A00DE79A5 /* FYChartViewTests */,
+				A657CA6F2375050A00DE79A5 /* FYChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A657CA48237504F700DE79A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A657CA5D2375050900DE79A5 /* LaunchScreen.storyboard in Resources */,
+				A657CA5A2375050900DE79A5 /* Assets.xcassets in Resources */,
+				A657CA58237504F700DE79A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA632375050A00DE79A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA6E2375050A00DE79A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A657CA46237504F700DE79A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A657CA55237504F700DE79A5 /* ViewController.m in Sources */,
+				A657CA4F237504F700DE79A5 /* AppDelegate.m in Sources */,
+				A657CA602375050900DE79A5 /* main.m in Sources */,
+				A657CA52237504F700DE79A5 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA612375050A00DE79A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A657CA6A2375050A00DE79A5 /* FYChartViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A657CA6C2375050A00DE79A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A657CA752375050A00DE79A5 /* FYChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A657CA672375050A00DE79A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A657CA49237504F700DE79A5 /* FYChartView */;
+			targetProxy = A657CA662375050A00DE79A5 /* PBXContainerItemProxy */;
+		};
+		A657CA722375050A00DE79A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A657CA49237504F700DE79A5 /* FYChartView */;
+			targetProxy = A657CA712375050A00DE79A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A657CA56237504F700DE79A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A657CA57237504F700DE79A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A657CA5B2375050900DE79A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A657CA5C2375050900DE79A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A657CA772375050A00DE79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A657CA782375050A00DE79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A657CA7A2375050A00DE79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A657CA7B2375050A00DE79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A657CA7D2375050A00DE79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYChartView.app/FYChartView";
+			};
+			name = Debug;
+		};
+		A657CA7E2375050A00DE79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartViewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FYChartView.app/FYChartView";
+			};
+			name = Release;
+		};
+		A657CA802375050A00DE79A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYChartView;
+			};
+			name = Debug;
+		};
+		A657CA812375050A00DE79A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FYChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.fanyang.FYChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FYChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A657CA45237504F700DE79A5 /* Build configuration list for PBXProject "FYChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A657CA772375050A00DE79A5 /* Debug */,
+				A657CA782375050A00DE79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A657CA792375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A657CA7A2375050A00DE79A5 /* Debug */,
+				A657CA7B2375050A00DE79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A657CA7C2375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A657CA7D2375050A00DE79A5 /* Debug */,
+				A657CA7E2375050A00DE79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A657CA7F2375050A00DE79A5 /* Build configuration list for PBXNativeTarget "FYChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A657CA802375050A00DE79A5 /* Debug */,
+				A657CA812375050A00DE79A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A657CA42237504F700DE79A5 /* Project object */;
+}
