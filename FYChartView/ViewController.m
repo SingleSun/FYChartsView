@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FYChartLineView.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
+    FYChartLineView * lineView = [[FYChartLineView alloc]initWithFrame:CGRectMake(10, 100, self.view.bounds.size.width-20, 300)];
+    [self.view addSubview:lineView];
+    
 }
 
 

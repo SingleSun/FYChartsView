@@ -16,6 +16,8 @@
 		A657CA602375050900DE79A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA5F2375050900DE79A5 /* main.m */; };
 		A657CA6A2375050A00DE79A5 /* FYChartViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA692375050A00DE79A5 /* FYChartViewTests.m */; };
 		A657CA752375050A00DE79A5 /* FYChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA742375050A00DE79A5 /* FYChartViewUITests.m */; };
+		A657CA852375104E00DE79A5 /* FYChartLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA842375104E00DE79A5 /* FYChartLineView.m */; };
+		A657CA8823751BC200DE79A5 /* FYAxisValueFormater.m in Sources */ = {isa = PBXBuildFile; fileRef = A657CA8723751BC200DE79A5 /* FYAxisValueFormater.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +56,10 @@
 		A657CA702375050A00DE79A5 /* FYChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A657CA742375050A00DE79A5 /* FYChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChartViewUITests.m; sourceTree = "<group>"; };
 		A657CA762375050A00DE79A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A657CA832375104E00DE79A5 /* FYChartLineView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYChartLineView.h; sourceTree = "<group>"; };
+		A657CA842375104E00DE79A5 /* FYChartLineView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYChartLineView.m; sourceTree = "<group>"; };
+		A657CA8623751BC100DE79A5 /* FYAxisValueFormater.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYAxisValueFormater.h; sourceTree = "<group>"; };
+		A657CA8723751BC200DE79A5 /* FYAxisValueFormater.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYAxisValueFormater.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,7 @@
 		A657CA4C237504F700DE79A5 /* FYChartView */ = {
 			isa = PBXGroup;
 			children = (
+				A657CA8223750F3D00DE79A5 /* FYCharts */,
 				A657CA4D237504F700DE79A5 /* AppDelegate.h */,
 				A657CA4E237504F700DE79A5 /* AppDelegate.m */,
 				A657CA50237504F700DE79A5 /* SceneDelegate.h */,
@@ -135,6 +142,17 @@
 				A657CA762375050A00DE79A5 /* Info.plist */,
 			);
 			path = FYChartViewUITests;
+			sourceTree = "<group>";
+		};
+		A657CA8223750F3D00DE79A5 /* FYCharts */ = {
+			isa = PBXGroup;
+			children = (
+				A657CA832375104E00DE79A5 /* FYChartLineView.h */,
+				A657CA842375104E00DE79A5 /* FYChartLineView.m */,
+				A657CA8623751BC100DE79A5 /* FYAxisValueFormater.h */,
+				A657CA8723751BC200DE79A5 /* FYAxisValueFormater.m */,
+			);
+			path = FYCharts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,8 +287,10 @@
 			files = (
 				A657CA55237504F700DE79A5 /* ViewController.m in Sources */,
 				A657CA4F237504F700DE79A5 /* AppDelegate.m in Sources */,
+				A657CA852375104E00DE79A5 /* FYChartLineView.m in Sources */,
 				A657CA602375050900DE79A5 /* main.m in Sources */,
 				A657CA52237504F700DE79A5 /* SceneDelegate.m in Sources */,
+				A657CA8823751BC200DE79A5 /* FYAxisValueFormater.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FYChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = FYChartView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
